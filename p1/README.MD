@@ -29,7 +29,7 @@ There is a startup named Sparkify that wants to analyze the data they have been 
 > * Question 1: What are the songs that users are listening to?
 
 
-![Alt text](./img/mess.jpg?raw=true "Mess")
+![Alt text](./img/question.jpg?raw=true "Question")
 
 ## File Descriptions <a name="files"></a>
 
