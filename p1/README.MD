@@ -23,15 +23,13 @@ Be the force with you!
 
 ## Project Motivation<a name="motivation"></a>
 
-For this project, I was interestested in using StackOverflow 2020 Survey Dataset and apply CRISP-DM methodology (Cross Industry Process for Data Mining) to better understand:
+There is a startup named Sparkify that wants to analyze the data they have been collecting about the songs and other user activity on their new music streaming app. They want to answer to the following question:
 
-> * Question 1: About the Gender Gap within Data Science enviroment: How is the Gender Proportion in this survey? Do women answer the same than men?
-> * Question 2: Which are the countries with more Data Scientist & Machine Learning programmers? -at least between those who have answered this survey?- and what about DS&ML women?
-> * Question 3: Which Programming Language is the most popular? and which is the favourite between women, according to the survey?
-> * Question 4: What is the best way for code sharing?
-> * Question 5: How well can we predict an individual's job salary? What aspects correlate well to job salary?
 
-![Alt text](./img/SOyears.png?raw=true "StackOverflow 2020,2019,2018")
+> * Question 1: What are the songs that users are listening to?
+
+
+![Alt text](./img/mess.jpg?raw=true "Mess")
 
 ## File Descriptions <a name="files"></a>
 
