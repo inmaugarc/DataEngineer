@@ -25,9 +25,9 @@ Be the force with you!
 
 There is a startup named Sparkify that wants to analyze the data they have been collecting about the songs and other user activity on their new music streaming app. They want to answer to the following question:
 
-
 > * Question 1: What are the songs that users are listening to?
 
+They don't have an easy way to query their data that is stored in a directory of JSON files with the logs on user activity on the app. They have also a directory with JSON metadata on the songs in their app.
 
 ![Alt text](./img/question.jpg?raw=true "Question")
 
