@@ -54,7 +54,6 @@ Log Dataset        - This dataset consists of log files in JSON format generated
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
 Must give credit to Udacity for collecting data and because there are some pieces of code taken out from the Data Engineer Nanodegree classrooms. 
-Otherwise, feel free to use the code here as you would like! 
 
 ## References <a name="references"></a>
  [Data Modeling with Postgres by Udacity](https://learn.udacity.com/nanodegrees/nd027/parts/cd0029/lessons/ls1961/concepts/1d3c5721-ca17-4483-a84a-a7e999b3d9a3) <br>
