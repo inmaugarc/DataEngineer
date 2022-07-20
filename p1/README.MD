@@ -27,15 +27,17 @@ There is a startup named Sparkify that wants to analyze the data they have been 
 
 > * Question 1: What are the songs that users are listening to?
 
+![Alt text](./img/question.jpg?raw=true "Question")
+
 They don't have an easy way to query their data that is stored in a directory of JSON files with the logs on user activity on the app. They have also a directory with JSON metadata on the songs in their app.
 
 The goal of this project are:
-> Creating a Postgress database with tables specifically designed to optimize queries on song play analysis. 
-> Create a database schema, defining fact and dimension tables for a star schema
-> Design and implement the ETL pipeline for the analysis. This pipeline transfers data from files in two directories into some tables in Postgress
-> Use Python and SQL
+> * Creating a Postgress database with tables specifically designed to optimize queries on song play analysis. 
+> * Create a database schema, defining fact and dimension tables for a star schema
+> * Design and implement the ETL pipeline for the analysis. This pipeline transfers data from files in two directories into some tables in Postgress
+> * Use Python and SQL
 
-![Alt text](./img/question.jpg?raw=true "Question")
+
 
 ## File Descriptions <a name="files"></a>
 
