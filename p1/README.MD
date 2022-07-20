@@ -2,7 +2,7 @@
 # Data Modeling with Postgres
 A Udacity Data Engineer Nanodegree Project
 
-![Alt text](./img/Globe.png?raw=true "StackOverflow 2020 Survey Insights")
+![Alt text](./img/pexels-pixabay-164879.jpg?raw=true "A Project about music!!")
 
 ### Table of Contents
 
