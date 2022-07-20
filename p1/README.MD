@@ -50,18 +50,16 @@ survey_results_schema.csv       - This file contains the questions of the survey
 
 You have to unzip those files, after download them.
 
-## Results<a name="results"></a>
-
-The main findings of the code can be found at the post available [here](https://inmaug.medium.com/4-tips-that-will-make-you-smarter-about-developers-trends-around-the-globe-11c43a2e8536).
 
 ![Alt text](./img/BlogPost.png?raw=true "Medium Blog Post")
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
-Must give credit to StackOverflow for the collecting data and to Udacity because there are some pieces of code taken out from the DataScience Udacity Nanodegree classrooms. 
+Must give credit to Udacity for collecting data and because there are some pieces of code taken out from the Data Engineer Nanodegree classrooms. 
 Otherwise, feel free to use the code here as you would like! 
 
 ## References <a name="references"></a>
  [Data Modeling with Postgres by Udacity](https://learn.udacity.com/nanodegrees/nd027/parts/cd0029/lessons/ls1961/concepts/1d3c5721-ca17-4483-a84a-a7e999b3d9a3) <br>
  [StackOverflow](https://stackoverflow.com/) <br>
+ [Udacity Knowledge] (https://knowledge.udacity.com/) <br>
 
