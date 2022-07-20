@@ -20,14 +20,18 @@ Those libraries are detailed in the requierements.txt file, so be sure that you 
 The code should run with no issues using Python versions 3.* but if you find errors, please contact me.
 Be the force with you!
 
+## How To <a name="howto"></a>
 
-## Project Motivation<a name="motivation"></a>
+To run the scripts simply execute:
+python create_tables.py
+python etl.py
+
+## Project Motivation<a name="motivation"></a> 
 
 There is a startup named Sparkify that wants to analyze the data they have been collecting about the songs and other user activity on their new music streaming app. They want to answer to the following question:
 
 > * Question 1: What are the songs that users are listening to?
 
-![Alt text](./img/question.jpg?raw=true "Question")
 
 They don't have an easy way to query their data that is stored in a directory of JSON files with the logs on user activity on the app. They have also a directory with JSON metadata on the songs in their app.
 
