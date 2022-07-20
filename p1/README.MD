@@ -54,6 +54,6 @@ Must give credit to StackOverflow for the collecting data and to Udacity because
 Otherwise, feel free to use the code here as you would like! 
 
 ## References <a name="references"></a>
- [StackOverflow 2020 Survey](https://insights.stackoverflow.com/survey/2020) <br>
+ [Data Modeling with Postgres by Udacity]([https://learn.udacity.com/nanodegrees/nd027/parts/cd0029/lessons/ls1961/concepts/1d3c5721-ca17-4483-a84a-a7e999b3d9a3]) <br>
  [StackOverflow Raw Data](https://insights.stackoverflow.com/survey) <br>
  [Data Science Udacity Nanodegrees](https://www.udacity.com/school-of-data-science) <br>
