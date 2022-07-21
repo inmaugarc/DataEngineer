@@ -74,8 +74,11 @@ These are the python scripts that create the databases schema and all the querie
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
 Must give credit to Udacity for collecting data and because there are some pieces of code taken out from the Data Engineer Nanodegree classrooms. 
+Also credits to Udacity Knowledge, where there is important information to develop the project
+And to Stackoverflow as it has been a useful source to solve some errors
 
 ## References <a name="references"></a>
  [Data Modeling with Postgres by Udacity](https://learn.udacity.com/nanodegrees/nd027/parts/cd0029/lessons/ls1961/concepts/1d3c5721-ca17-4483-a84a-a7e999b3d9a3) <br>
- [StackOverflow](https://stackoverflow.com/) <br>
  [Udacity Knowledge](https://knowledge.udacity.com/) <br>
+ [StackOverflow](https://stackoverflow.com/) <br>
+ 
