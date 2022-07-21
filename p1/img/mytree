@@ -1,0 +1,20 @@
+.
+├── create_tables.py --> script where the tables are created and deleted
+├── data
+│   ├── log_data     --> folder containing all the log data about the users listening music of the app
+│   │   └── 2018
+│   │       └── 11
+│   └── song_data    --> folder containing info about the songs dataset 
+│       └── A
+│           ├── A
+│           └── B
+├── etl.ipynb        --> jupyter notebook file with the steps to load the source data properly into our database
+├── etl.py           --> python script containing all the steps to load the source data into properly our database
+├── img	   	     --> folder with images to show in the README.MD
+│   ├── music_petit.jpg
+│   ├── sparkify_bd.drawio.png
+│   └── tree_postgress.png
+├── README.md        --> file summary of the project
+├── sql_queries.py   --> python script containing the queries to select, insert data,create and delete the tables into our database
+└── test.ipynb       --> jupyter notebook file with some steps for testing
+
