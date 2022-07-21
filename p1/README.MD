@@ -6,19 +6,13 @@ A Udacity Data Engineer Nanodegree Project
 
 ### Table of Contents
 
-1. [Installation](#installation)
-2. [Project Motivation](#motivation)
+1. [Project Motivation](#motivation)
+2. [Usage](#usage)
 3. [File Descriptions](#files)
 4. [Results](#results)
 5. [Licensing, Authors, and Acknowledgements](#licensing)
 6. [References](#references)
 
-## Installation <a name="installation"></a>
-
-There are some libraries that you need to install to run the code beyond the Anaconda distribution of Python. 
-Those libraries are detailed in the requierements.txt file, so be sure that you meet all the requirements (by installing them with 'pip3 install requirements.txt').
-The code should run with no issues using Python versions 3.* but if you find errors, please contact me.
-Be the force with you!
 
 ## Project Motivation<a name="motivation"></a> 
 
@@ -34,6 +28,45 @@ The goal of this project are:
 > * Create a database schema, defining fact and dimension tables for a star schema
 > * Design and implement the ETL pipeline for the analysis. This pipeline transfers data from files in two directories into some tables in Postgress
 > * Use Python and SQL
+
+## Project Structure<a name="structure"></a>
+
+This is the structure of the project:
+
+├── create_tables.py --> script where the tables are created and deleted
+├── data
+│   ├── log_data     --> folder containing all the log data about the users listening music of the app
+│   │   └── 2018
+│   │       └── 11
+│   └── song_data    --> folder containing info about the songs dataset 
+│       └── A
+│           ├── A
+│           └── B
+├── etl.ipynb        --> jupyter notebook file with the steps to load the source data properly into our database
+├── etl.py           --> python script containing all the steps to load the source data into properly our database
+├── img              --> folder with images to show in the README.MD
+│   ├── music_petit.jpg
+│   ├── sparkify_bd.drawio.png
+│   └── tree_postgress.png
+├── README.md        --> file summary of the project
+├── sql_queries.py   --> python script containing the queries to select, insert data,create and delete the tables into our database
+└── test.ipynb       --> jupyter notebook file with some steps for testing
+
+
+
+## Usage <a name="usage"></a>
+
+The first step is creating the tables for the database and creating a conection to a Postgres database named sparkifydb.
+To do so, run the following command in a terminal at the root folder:
+
+> * python create_tables.py
+
+
+Once the previous command has been executed, we need to start reading the source data and filling the database tables 
+with the source data in the right way, that is, we need to start executing an ETL process.For that you can use:
+
+> * python etl.py
+
 
 ## How To <a name="howto"></a>
 
@@ -69,4 +102,3 @@ Must give credit to Udacity for collecting data and because there are some piece
  [Data Modeling with Postgres by Udacity](https://learn.udacity.com/nanodegrees/nd027/parts/cd0029/lessons/ls1961/concepts/1d3c5721-ca17-4483-a84a-a7e999b3d9a3) <br>
  [StackOverflow](https://stackoverflow.com/) <br>
  [Udacity Knowledge](https://knowledge.udacity.com/) <br>
-
