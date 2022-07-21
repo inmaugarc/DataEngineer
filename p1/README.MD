@@ -7,11 +7,13 @@ A Udacity Data Engineer Nanodegree Project
 ### Table of Contents
 
 1. [Project Motivation](#motivation)
-2. [Usage](#usage)
-3. [File Descriptions](#files)
-4. [Results](#results)
-5. [Licensing, Authors, and Acknowledgements](#licensing)
-6. [References](#references)
+2. [Project Structure](#structure)
+3. [Usage](#usage)
+4. [Source Datasets](#source_datasets)
+5. [Database Model](#database)
+6. [File Descriptions](#files)
+7. [Licensing, Authors, and Acknowledgements](#licensing)
+8. [References](#references)
 
 
 ## Project Motivation<a name="motivation"></a> 
@@ -36,7 +38,6 @@ This is the structure of the project:
 ![Alt text](./img/mytree_img.png?raw=true "tree structure of the project")
 
 
-
 ## Usage <a name="usage"></a>
 
 The first step is creating the tables for the database and creating a conection to a Postgres database named sparkifydb.
@@ -49,13 +50,6 @@ Once the previous command has been executed, we need to start reading the source
 with the source data in the right way, that is, we need to start executing an ETL process.For that you can use:
 
 > * python etl.py
-
-
-## How To <a name="howto"></a>
-
-To run the scripts simply execute: <br>
-python create_tables.py <br>
-python etl.py
 
 ## Source Datasets <a name="source_datasets"></a>
 
