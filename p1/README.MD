@@ -14,7 +14,7 @@ A Udacity Data Engineer Nanodegree Project
 4. [Source Datasets](#source_datasets)
 5. [Database Model](#database)
 6. [File Descriptions](#files)
-7. 
+7. [Dashboarding and Analytics](#Dash)
 8. [Licensing, Authors, and Acknowledgements](#licensing)
 9. [References](#references)
 
@@ -78,13 +78,25 @@ These are the python scripts that create the databases schema and all the querie
 
 During the project, I have also added an EDA (Exploratory Data Analysis) and I include here some of the graphics for a better understanding of this dataset
 <br>
+Some histograms of the data
 ![Alt text](./img/hist1.png?raw=true "Histogram I")
 ![Alt text](./img/hist2.png?raw=true "Histogram II")
+
+<br>Distribution of the Length field
 ![Alt text](./img/Lengthdistr.png?raw=true "Length distribution")
+
+<br>Graphics of the iteminSession field and its distribution
 ![Alt text](./img/iteminSession.png?raw=true "iteminSession")
 ![Alt text](./img/iteminSession_distri.png?raw=true "iteminSession Distribution")
-![Alt text](./img/Usersbylevel.pnpg?raw=true "Users by Level")
+
+<br>Graphic of Users by Level
+![Alt text](./img/Usersbylevel.png?raw=true "Users by Level")
+
+<br>
+<br>Graphic of Users by American State 
 ![Alt text](./img/UsersbyState.png?raw=true "UsersbyState")
+
+<br>Graphic of Gender Distribution
 ![Alt text](./img/WomenMan.png?raw=true "Gender Distribution")
 
 
