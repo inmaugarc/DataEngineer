@@ -14,9 +14,9 @@ A Udacity Data Engineer Nanodegree Project
 4. [Source Datasets](#source_datasets)
 5. [Database Model](#database)
 6. [File Descriptions](#files)
-7. [Dashboarding and Analytics](#Dash)
-8. [Licensing, Authors, and Acknowledgements](#licensing)
-9. [References](#references)
+7. [Dashboards](#dash)
+9. [Licensing, Authors, and Acknowledgements](#licensing)
+10. [References](#references)
 
 
 ## Project Motivation<a name="motivation"></a> 
@@ -74,7 +74,7 @@ These are the python scripts that create the databases schema and all the querie
 2. etl.py: Read the Json logs and metadata and load that info into the recently created tables
 3. sql_queries.py: This script contains all the queries
 
-## Dashboarding and Analytics <a name="dash"></a> 
+## Dashboarding<a name="dash"></a> 
 
 During the project, I have also added an EDA (Exploratory Data Analysis) and I include here some of the graphics for a better understanding of this dataset
 <br>
@@ -92,11 +92,7 @@ Some histograms of the data
 <br>Graphic of Users by Level
 ![Alt text](./img/Usersbylevel.png?raw=true "Users by Level")
 
-<br>
-<br>Graphic of Users by American State 
-![Alt text](./img/UsersbyState.png?raw=true "UsersbyState")
-
-<br>Graphic of Gender Distribution
+ <br>Graphic of Gender Distribution
 ![Alt text](./img/WomenMan.png?raw=true "Gender Distribution")
 
 
