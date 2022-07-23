@@ -77,14 +77,9 @@ These are the python scripts that create the databases schema and all the querie
 ## Dashboarding and Analytics <a name="dash"></a> 
 
 During the project, I have also added an EDA (Exploratory Data Analysis) and I include here some of the graphics for a better understanding of this dataset
-![Alt text](./img/hist1.jpg?raw=true "Histogram I")
-![Alt text](./img/hist2.jpg?raw=true "Histogram II")
-![Alt text](./img/Lengthdistr.jpg?raw=true "Length distribution")
-![Alt text](./img/iteminSession?raw=true "iteminSession")
-![Alt text](./img/iteminSession_distri.jpg?raw=true "iteminSession Distribution")
-![Alt text](./img/Usersbylevel.jppg?raw=true "Users by Level")
-![Alt text](./img/UsersbyState.jpg?raw=true "UsersbyState")
-![Alt text](./img/womenMan.jpg?raw=true "Gender Distribution")
+<br>
+![Alt text](./img/hist1.jpg?raw=true "Database_model")
+
 
 
 
