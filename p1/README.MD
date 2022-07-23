@@ -80,12 +80,12 @@ During the project, I have also added an EDA (Exploratory Data Analysis) and I i
 <br>
 ![Alt text](./img/hist1.png?raw=true "Histogram I")
 ![Alt text](./img/hist2.png?raw=true "Histogram II")
-![Alt text](./img/Lengthdistr.jpg?raw=true "Length distribution")
-![Alt text](./img/iteminSession?raw=true "iteminSession")
+![Alt text](./img/Lengthdistr.png?raw=true "Length distribution")
+![Alt text](./img/iteminSession.png?raw=true "iteminSession")
 ![Alt text](./img/iteminSession_distri.png?raw=true "iteminSession Distribution")
-![Alt text](./img/Usersbylevel.jppg?raw=true "Users by Level")
+![Alt text](./img/Usersbylevel.pnpg?raw=true "Users by Level")
 ![Alt text](./img/UsersbyState.png?raw=true "UsersbyState")
-![Alt text](./img/womenMan.jpg?raw=true "Gender Distribution")
+![Alt text](./img/womenMan.png?raw=true "Gender Distribution")
 
 
 
