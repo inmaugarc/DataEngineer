@@ -53,11 +53,12 @@ Once the previous command has been executed, we need to start reading the source
 with the source data in the right way, that is, we need to start executing an ETL process.For that you can use:
 
 > * python etl.py
-<br>
-These are some screenshots of the execution of the scripts:<br>
+
+These are some screenshots of the execution of the scripts:
 ![Alt text](./img/Exec1.png?raw=true "Exec script 1")
 ![Alt text](./img/Exec2.png?raw=true "Exec script 2")
 ![Alt text](./img/Exec3.png?raw=true "Exec script 3")
+
 <br>
 
 ## Source Datasets <a name="source_datasets"></a>
