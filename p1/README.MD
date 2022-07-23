@@ -95,6 +95,9 @@ Some histograms of the data
  <br>Graphic of Gender Distribution
 ![Alt text](./img/WomenMan.png?raw=true "Gender Distribution")
 
+ <br>Graphic of Users by American State
+![Alt text](./img/UsersbyState.png?raw=true "Users by State")
+
 
 
 
