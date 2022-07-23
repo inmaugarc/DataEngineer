@@ -43,7 +43,11 @@ This is the structure of the project:
 
 ## Usage <a name="usage"></a>
 
-The first step is creating the tables for the database and creating a conection to a Postgres database named sparkifydb.
+The first step is unzipping the file containing the data: 
+
+> * unzip data.zip
+
+The second step is creating the tables for the database and creating a conection to a Postgres database named sparkifydb.
 To do so, run the following command in a terminal at the root folder:
 
 > * python create_tables.py
