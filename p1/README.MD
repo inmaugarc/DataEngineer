@@ -14,8 +14,9 @@ A Udacity Data Engineer Nanodegree Project
 4. [Source Datasets](#source_datasets)
 5. [Database Model](#database)
 6. [File Descriptions](#files)
-7. [Licensing, Authors, and Acknowledgements](#licensing)
-8. [References](#references)
+7. 
+8. [Licensing, Authors, and Acknowledgements](#licensing)
+9. [References](#references)
 
 
 ## Project Motivation<a name="motivation"></a> 
@@ -72,6 +73,21 @@ These are the python scripts that create the databases schema and all the querie
 1. create_tables.py: Prepare all the workspace with a new schema and create all tables <br>
 2. etl.py: Read the Json logs and metadata and load that info into the recently created tables
 3. sql_queries.py: This script contains all the queries
+
+## Dashboarding and Analytics <a name="dash"></a> 
+
+During the project, I have also added an EDA (Exploratory Data Analysis) and I include here some of the graphics for a better understanding of this dataset
+![Alt text](./img/hist1.jpg?raw=true "Histogram I")
+![Alt text](./img/hist2.jpg?raw=true "Histogram II")
+![Alt text](./img/Lengthdistr.jpg?raw=true "Length distribution")
+![Alt text](./img/iteminSession?raw=true "iteminSession")
+![Alt text](./img/iteminSession_distri.jpg?raw=true "iteminSession Distribution")
+![Alt text](./img/Usersbylevel.jppg?raw=true "Users by Level")
+![Alt text](./img/UsersbyState.jpg?raw=true "UsersbyState")
+![Alt text](./img/womenMan.jpg?raw=true "Gender Distribution")
+
+
+
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
