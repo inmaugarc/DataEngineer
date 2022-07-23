@@ -2,7 +2,9 @@
 # Data Modeling with Postgres
 A Udacity Data Engineer Nanodegree Project
 
-![Alt text](./img/sparkify_mini.png?raw=true "A Project about music!!")
+![Alt text](./img/markus.jpg?raw=true "A Project about music!!")
+Foto de <a href="https://unsplash.com/@markusspiske?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Markus Spiske</a> en <a href="https://unsplash.com/es/colecciones/6857718/audiobooks%2C-listening%2C-music?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
 
 ### Table of Contents
 
