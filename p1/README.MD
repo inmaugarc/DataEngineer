@@ -85,7 +85,7 @@ During the project, I have also added an EDA (Exploratory Data Analysis) and I i
 ![Alt text](./img/iteminSession_distri.png?raw=true "iteminSession Distribution")
 ![Alt text](./img/Usersbylevel.pnpg?raw=true "Users by Level")
 ![Alt text](./img/UsersbyState.png?raw=true "UsersbyState")
-![Alt text](./img/womenMan.png?raw=true "Gender Distribution")
+![Alt text](./img/WomenMan.png?raw=true "Gender Distribution")
 
 
 
