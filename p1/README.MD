@@ -2,7 +2,7 @@
 # Data Modeling with Postgres
 A Udacity Data Engineer Nanodegree Project
 
-![Alt text](./img/music_petit.jpg?raw=true "A Project about music!!")
+![Alt text](./img/sparkify_mini.png?raw=true "A Project about music!!")
 
 ### Table of Contents
 
