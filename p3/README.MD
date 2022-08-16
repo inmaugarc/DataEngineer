@@ -3,8 +3,7 @@
 # Data Warehouse
 A Udacity Data Engineer Nanodegree Project
 
-![Alt text](./img/markus2.jpg?raw=true "A Datawarehouse about music!!")
-<br>Foto de <a href="https://unsplash.com/@markusspiske?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Markus Spiske</a> en <a href="https://unsplash.com/es/colecciones/6857718/audiobooks%2C-listening%2C-music?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+![Alt text](./img/microphone.jpg?raw=true "A Datawarehouse about music!!")
   
 
 ### Table of Contents
