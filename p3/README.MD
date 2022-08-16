@@ -3,7 +3,7 @@
 # Data Warehouse
 A Udacity Data Engineer Nanodegree Project
 
-![Alt text](./img/microphone.jpg?raw=true "A Datawarehouse about music!!")
+![Alt text](./img/music.jpg?raw=true "A Datawarehouse about music!!")
   
 
 ### Table of Contents
