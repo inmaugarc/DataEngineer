@@ -49,20 +49,26 @@ This is the structure of the project:
 
 ## Usage <a name="usage"></a>
 
-The first step is unzipping the file containing the data: 
+The first step is to include the AWS Access Key and Secret key into the dwh.cfg configuration file
 
-> * unzip data.zip
+The second step is to create the Redshift cluster on AWS:
+> * python create_redshift.py
 
-The second step is creating the tables for the database and creating a conection to a Postgres database named sparkifydb.
+The third step is creating the tables for the database and creating a conection to a Postgres database named sparkifydb.
 To do so, run the following command in a terminal at the root folder:
 
 > * python create_tables.py
-
 
 Once the previous command has been executed, we need to start reading the source data and filling the database tables 
 with the source data in the right way, that is, we need to start executing an ETL process.For that you can use:
 
 > * python etl.py
+
+Then you can execute some analytics to validate the data into tables and/or to know more about the data
+> * python analytics.py
+
+Don't forget to delete all the AWS services if you don't want to have an extra cost!!!!
+>* python delete_redshift.py
 
 These are some screenshots of the execution of the scripts:
 <br>
@@ -91,6 +97,10 @@ These are the python scripts that create the databases schema and all the querie
 1. create_tables.py: Prepare all the workspace with a new schema and create all tables <br>
 2. etl.py: Read the Json logs and metadata and load that info into the recently created tables
 3. sql_queries.py: This script contains all the queries
+4. create_redshift.py: Launch a Redshift cluster
+5. delete_redshift.py: Delete a Redshift cluster
+6. analytics.py: Do some analytics 
+
 
 ## Dashboarding<a name="dash"></a> 
 
@@ -115,8 +125,6 @@ Some histograms of the data
 
  <br>Graphic of Users by American State
 ![Alt text](./img/UsersbyState.png?raw=true "Users by State")
-
-
 
 
 
