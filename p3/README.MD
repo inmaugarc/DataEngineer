@@ -68,17 +68,8 @@ with the source data in the right way, that is, we need to start executing an ET
 
 > * python etl.py
 
-Then you can execute some analytics to validate the data into tables and/or to know more about the data
-> * python analytics.py
-
 Don't forget to delete all the AWS services if you don't want to have an extra cost!!!!
 >* python delete_redshift.py
-
-These are some screenshots of the execution of the scripts:
-<br>
-![Alt text](./img/Exec1.png?raw=true "Exec script 1")
-![Alt text](./img/Exec2.png?raw=true "Exec script 2")
-![Alt text](./img/Exec3.png?raw=true "Exec script 3")
 
 <br>
 
