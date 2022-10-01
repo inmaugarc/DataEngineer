@@ -1,9 +1,9 @@
-
 # DATA ENGINEER MASTER
 # Data Warehouse
 A Udacity Data Engineer Nanodegree Project
 
 ![Alt text](./img/music.jpg?raw=true "A Datawarehouse about music!!")
+<br>Foto de <a href="https://unsplash.com/@markusspiske?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Markus Spiske</a> en <a href="https://unsplash.com/es/colecciones/6857718/audiobooks%2C-listening%2C-music?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 
 ### Table of Contents
@@ -30,7 +30,11 @@ I will test the database and the ETL pipeline and execute some queries to compar
 
 
 > * Question 1: What are the songs that users are listening to?
-
+> * Question 2: What are the artists that users are listening to?
+> * Question 3: How many users do we have?
+> * Question 4: How many users do we have by levels (free/paid)?
+> * Question 5: How many users do we have by gender?
+> * Question 6: What are the 5 location where users listen the most?
 
 They don't have an easy way to query their data that is stored in a directory of JSON files with the logs on user activity on the app. They have also a directory with JSON metadata on the songs in their app.
 
@@ -88,7 +92,7 @@ The files included for the analysis are two datasets:
 ## Database Model <a name="database"></a>
 
 The schema of the Database is a star schema and can be described with the following diagram:
-![Alt text](./img/sparkify_bd.drawio.png?raw=true "Database_model")
+![Alt text](./img/sparkify_bd2.drawio.png?raw=true "Database_model")
 
 ## File Descriptions <a name="files"></a>
 
@@ -97,36 +101,26 @@ These are the python scripts that create the databases schema and all the querie
 1. create_tables.py: Prepare all the workspace with a new schema and create all tables <br>
 2. etl.py: Read the Json logs and metadata and load that info into the recently created tables
 3. sql_queries.py: This script contains all the queries
-4. create_redshift.py: Launch a Redshift cluster
-5. delete_redshift.py: Delete a Redshift cluster
-6. analytics.py: Do some analytics 
-
 
 ## Dashboarding<a name="dash"></a> 
 
 During the project, I have also added an EDA (Exploratory Data Analysis) and I include here some of the graphics for a better understanding of this dataset
 <br>
-Some histograms of the data
-![Alt text](./img/hist1.png?raw=true "Histogram I")
-![Alt text](./img/hist2.png?raw=true "Histogram II")
 
-<br>Distribution of the Length field
-![Alt text](./img/Lengthdistr.png?raw=true "Length distribution")
-
-<br>Graphics of the iteminSession field and its distribution
-![Alt text](./img/iteminSession.png?raw=true "iteminSession")
-![Alt text](./img/iteminSession_distri.png?raw=true "iteminSession Distribution")
+ <br>Number of users
+![Alt text](./img/nusers.png?raw=true "Number of Users")
 
 <br>Graphic of Users by Level
-![Alt text](./img/Usersbylevel.png?raw=true "Users by Level")
+![Alt text](./img/usersbylevel.png?raw=true "Users by Level")
 
  <br>Graphic of Gender Distribution
-![Alt text](./img/WomenMan.png?raw=true "Gender Distribution")
+![Alt text](./img/usersbygender.png?raw=true "Gender Distribution")
 
  <br>Graphic of Users by American State
-![Alt text](./img/UsersbyState.png?raw=true "Users by State")
+![Alt text](./img/usersbylocation.png?raw=true "Users by State")
 
-
+ <br>Graphic of 5 Top Artist
+![Alt text](./img/top_artists.png?raw=true "5 Top Artist")
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
