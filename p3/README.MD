@@ -126,7 +126,7 @@ Also credits to Udacity Knowledge, where there is important information to devel
 And to Stackoverflow as it has been a useful source to solve some errors
 
 ## References <a name="references"></a>
- [Data Modeling with Postgres by Udacity](https://learn.udacity.com/nanodegrees/nd027/parts/cd0029/lessons/ls1961/concepts/1d3c5721-ca17-4483-a84a-a7e999b3d9a3) <br>
+ [Implementing Data Warehouses on AWS](https://learn.udacity.com/nanodegrees/nd027/parts/cd0055/lessons/19927dab-ffc2-4123-aec4-3bd3cb034a16/concepts/afe30bab-0227-4fe9-b630-b79957f59a75) <br>
  [Udacity Knowledge](https://knowledge.udacity.com/) <br>
  [StackOverflow](https://stackoverflow.com/) <br>
  
