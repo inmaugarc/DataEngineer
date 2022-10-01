@@ -48,7 +48,7 @@ The goal of this project are:
 
 This is the structure of the project:
 
-![Alt text](./img/mytree_img.png?raw=true "tree structure of the project")
+![Alt text](./img/tree_dwh.png?raw=true "tree structure of the project")
 
 
 ## Usage <a name="usage"></a>
