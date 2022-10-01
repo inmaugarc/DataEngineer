@@ -74,6 +74,9 @@ Don't forget to delete all the AWS services if you don't want to have an extra c
 Here some screenshots of the scripts running:
 ![Alt text](./img/create.png?raw=true "script1")
 
+Here a screenshoft of the Redshift Editor
+![Alt text](./img/redshift.png?raw=true "redshift")
+
 <br>
 
 ## Source Datasets <a name="source_datasets"></a>
