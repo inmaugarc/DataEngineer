@@ -71,6 +71,9 @@ with the source data in the right way, that is, we need to start executing an ET
 Don't forget to delete all the AWS services if you don't want to have an extra cost!!!!
 >* python delete_redshift.py
 
+Here some screenshots of the scripts running:
+![Alt text](./img/create.png?raw=true "script1")
+
 <br>
 
 ## Source Datasets <a name="source_datasets"></a>
