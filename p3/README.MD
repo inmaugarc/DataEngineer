@@ -89,7 +89,7 @@ The files included for the analysis are two datasets:
 ## Database Model <a name="database"></a>
 
 The schema of the Database is a star schema and can be described with the following diagram:
-![Alt text](./img/sparkify_bd2.drawio.png?raw=true "Database_model")
+![Alt text](./img/DWH_Star_schema.png?raw=true "Database_model")
 
 ## File Descriptions <a name="files"></a>
 
