@@ -38,7 +38,7 @@ I will test the database and the ETL pipeline and execute some queries to compar
 
 They don't have an easy way to query their data that is stored in a directory of JSON files with the logs on user activity on the app. They have also a directory with JSON metadata on the songs in their app.
 
-The goal of this project are:
+The goals of this project are:
 > * Creating a Redshift datawarehouse with tables specifically designed to optimize queries on song play analysis. 
 > * Create a datawarehouse, defining fact and dimension tables for a star schema
 > * Design and implement the ETL pipeline for the analysis. This pipeline transfers data from files in two directories into some tables 
