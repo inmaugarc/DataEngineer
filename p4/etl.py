@@ -18,6 +18,9 @@ def create_spark_session():
         .builder \
         .config("spark.jars.packages", "org.apache.hadoop:hadoop-aws:2.7.0") \
         .getOrCreate()
+    
+    print(" Spark session created ...")
+    
     return spark
 
 
@@ -34,11 +37,11 @@ def process_song_data(spark, input_data, output_data):
     # write songs table to parquet files partitioned by year and artist
     songs_table.write.parquet()
 
-    # extract columns to create artists table
-        
+    # extract columns to create artists table        
     artists_table = 
     
     # write artists table to parquet files
+    
     artists_table.write.parquet()
 
 
