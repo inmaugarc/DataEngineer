@@ -4,9 +4,8 @@
 A Udacity Data Engineer Nanodegree Project
 
 ![Alt text](./img/music.jpg?raw=true "A Datawarehouse about music!!")
-<br>Foto de <a href="https://unsplash.com/@markusspiske?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Markus Spiske</a> en <a href="https://unsplash.com/es/colecciones/6857718/audiobooks%2C-listening%2C-music?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+Foto de <a href="https://unsplash.com/@daniele_franchi?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Daniele Franchi</a> en <a href="https://unsplash.com/es/colecciones/6857718/audiobooks%2C-listening%2C-music?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
-
 ### Table of Contents
 
 1. [Project Motivation](#motivation)
