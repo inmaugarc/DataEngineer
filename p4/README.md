@@ -129,7 +129,7 @@ Also credits to Udacity Knowledge, where there is important information to devel
 And to Stackoverflow as it has been a useful source to solve some errors
 
 ## References <a name="references"></a>
- [Implementing Data Warehouses on AWS](https://learn.udacity.com/nanodegrees/nd027/parts/cd0055/lessons/19927dab-ffc2-4123-aec4-3bd3cb034a16/concepts/afe30bab-0227-4fe9-b630-b79957f59a75) <br>
+ [The Power of Spark](https://learn.udacity.com/nanodegrees/nd027/parts/cd0030/lessons/ls1965/concepts/626aa254-50bc-4bc7-8fe9-9a4e28527739) <br>
  [Udacity Knowledge](https://knowledge.udacity.com/) <br>
  [StackOverflow](https://stackoverflow.com/) <br>
  
