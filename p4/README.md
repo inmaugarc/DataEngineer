@@ -3,7 +3,7 @@
 # Data Lake
 A Udacity Data Engineer Nanodegree Project
 
-![Alt text](./img/music.jpg?raw=true "A Datawarehouse about music!!")
+![Alt text](./img/daniele-franchi-8qDMr83yE14-unsplash.jpg?raw=true "A Data Lake about music!!")
 Foto de <a href="https://unsplash.com/@daniele_franchi?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Daniele Franchi</a> en <a href="https://unsplash.com/es/colecciones/6857718/audiobooks%2C-listening%2C-music?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 ### Table of Contents
