@@ -22,13 +22,15 @@ A Udacity Data Engineer Nanodegree Project
 
 ## Project Motivation<a name="motivation"></a> 
 
-There is a startup named Sparkify has grown so much, that they have decided to migrate their data and processes to the cloud, as it gives more elasticity and cost saving.
-The data is on a an S3 bucket, in a directory containing JSON logs about the activity of their users using the app.
+There is a startup named Sparkify has grown so much, that they have decided to migrate their data warehouse to a data lake.
+The data resides in an S3 bucket, in a directory containing JSON logs about the activity of their users using the app.
 There is also a folder with metadata of the songs, also in JSON format.
 
-This startup has asked me, as her data engineer, to build an ELT pipeline that extracts all the data from the S3 buckets, stages in Redfhift, and transform that data into dimensional tables, so that the analytics team can find insights into the songs that our users are listening to.
+This startup has asked me, as her data engineer, to build an ELT pipeline that extracts all the data from the S3 buckets, procesess them using Spark, and transform that data into dimensional tables, so that the analytics team can find insights into the songs that our users are listening to.
+
 I will test the database and the ETL pipeline and execute some queries to compare the results with the expected results.
 
+So in this project, I'll apply what I have learned on Spark and data lakes to build an ETL pipeline for a data lake hosted on S3. Also I'll need to load data from S3, process the data into analytics tables using Spark, and load them back into S3. Also I will deploy this Spark process on a cluster using AWS.
 
 > * Question 1: What are the songs that users are listening to?
 > * Question 2: What are the artists that users are listening to?
