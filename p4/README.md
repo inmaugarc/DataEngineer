@@ -42,10 +42,10 @@ So in this project, I'll apply what I have learned on Spark and data lakes to bu
 They don't have an easy way to query their data that is stored in a directory of JSON files with the logs on user activity on the app. They have also a directory with JSON metadata on the songs in their app.
 
 The goals of this project are:
-> * Creating a Redshift datawarehouse with tables specifically designed to optimize queries on song play analysis. 
-> * Create a datawarehouse, defining fact and dimension tables for a star schema
-> * Design and implement the ETL pipeline for the analysis. This pipeline transfers data from files in two directories into some tables 
-> * Use Python and SQL
+> * Create a Data Lake with tables specifically designed to optimize queries on song play analysis. 
+> * Build an ETL pipeline to load data hosted on S3, process the data into analytics tables using Spark and load them back into S3
+> * Deploy a Spark process on a cluster using AWS
+
 
 ## Project Structure<a name="structure"></a>
 
