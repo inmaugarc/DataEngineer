@@ -76,7 +76,7 @@ Don't forget to delete all the AWS services if you don't want to have an extra c
 >* python destroy_cluster.py
 
 Here some screenshots of the scripts running:
-![Alt text](./img/create.png?raw=true "exec0.png")
+![Alt text](./img/exec0.png?raw=true "exec0.png")
 
 Here some screenshots of the output files generated
 ![Alt text](./img/partition.png?raw=true "PartitionedFiles")
