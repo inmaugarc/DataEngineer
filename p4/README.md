@@ -76,10 +76,11 @@ Don't forget to delete all the AWS services if you don't want to have an extra c
 >* python destroy_cluster.py
 
 Here some screenshots of the scripts running:
-![Alt text](./img/create.png?raw=true "Captura de pantalla 2023-04-22 154138.png")
+![Alt text](./img/create.png?raw=true "exec0.png")
 
-Here a screenshoft of the output files generated
-![Alt text](./img/Captura de pantalla 2023-04-22 154319.png?raw=true "OutputFiles")
+Here some screenshots of the output files generated
+![Alt text](./img/partition.png?raw=true "PartitionedFiles")
+![Alt text](./img/tree.png?raw=true "OutputFiles")
 
 <br>
 
@@ -111,19 +112,19 @@ During the project, I have also added an EDA (Exploratory Data Analysis) and I i
 <br>
 
  <br>Users by level
-![Alt text](./img/Captura de pantalla 2023-04-22 154935.PNG?raw=true "UsersbyLevel")
+![Alt text](./img/level.png?raw=true "UsersbyLevel")
 
 <br>Level of users' accounts
-![Alt text](./img/Captura de pantalla 2023-04-22 155002.PNG?raw=true "Level account of Users")
+![Alt text](./img/level_plot.png?raw=true "Level account of Users")
 
 <br>Graphic of Location of Users
-![Alt text](./img/Captura de pantalla 2023-04-22 155027.PNG?raw=true "Users by Location")
+![Alt text](./img/location.png?raw=true "Users by Location")
 
  <br>Histogram of the length users stay
-![Alt text](./img/Captura de pantalla 2023-04-22 155041.PNG?raw=true "Histogram")
+![Alt text](./img/hist.png?raw=true "Histogram")
 
  <br>Skewness of data
-![Alt text](./img/Captura de pantalla 2023-04-22 154645.PNG?raw=true "Skewness")
+![Alt text](./img/skewness.png?raw=true "Skewness")
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
