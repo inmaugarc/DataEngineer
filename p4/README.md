@@ -129,8 +129,8 @@ During the project, I have also added an EDA (Exploratory Data Analysis) and I i
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
 Must give credit to Udacity for collecting data and because there are some pieces of code taken out from the Data Engineer Nanodegree classrooms. 
-Also credits to Udacity Knowledge, where there is important information to develop the project
-And to Stackoverflow as it has been a useful source to solve some errors
+Also credits to Udacity Knowledge, where there is important information to develop the project.
+And credits to Stackoverflow as it has been a useful source to solve some errors
 
 ## References <a name="references"></a>
  [The Power of Spark](https://learn.udacity.com/nanodegrees/nd027/parts/cd0030/lessons/ls1965/concepts/626aa254-50bc-4bc7-8fe9-9a4e28527739) <br>
