@@ -111,19 +111,19 @@ During the project, I have also added an EDA (Exploratory Data Analysis) and I i
 <br>
 
  <br>Users by level
-![Alt text](./img/Captura de pantalla 2023-04-22 154935.png?raw=true "UsersbyLevel")
+![Alt text](./img/Captura de pantalla 2023-04-22 154935.PNG?raw=true "UsersbyLevel")
 
 <br>Level of users' accounts
-![Alt text](./img/Captura de pantalla 2023-04-22 155002.png?raw=true "Level account of Users")
+![Alt text](./img/Captura de pantalla 2023-04-22 155002.PNG?raw=true "Level account of Users")
 
 <br>Graphic of Location of Users
-![Alt text](./img/Captura de pantalla 2023-04-22 155027.png?raw=true "Users by Location")
+![Alt text](./img/Captura de pantalla 2023-04-22 155027.PNG?raw=true "Users by Location")
 
  <br>Histogram of the length users stay
-![Alt text](./img/Captura de pantalla 2023-04-22 155041.png?raw=true "Histogram")
+![Alt text](./img/Captura de pantalla 2023-04-22 155041.PNG?raw=true "Histogram")
 
  <br>Skewness of data
-![Alt text](./img/Captura de pantalla 2023-04-22 154645.png?raw=true "Skewness")
+![Alt text](./img/Captura de pantalla 2023-04-22 154645.PNG?raw=true "Skewness")
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
