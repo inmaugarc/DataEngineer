@@ -53,6 +53,8 @@ This is the structure of the project:
 > * dl.cfg: Configuration file with AWS credentials
 > * etl.py: Python file with the processes that support the ETL pipeline, that is, reads data from S3 buckets, processess data using Apache Spark, and writes processed data to the output S3 buckets
 > * etl.ipynb: Test file for the ETL process
+> * launch_emr.py: Script to create an EMR cluster
+> * destroy_cluster.py: Script to delete the EMR cluster previously created
 
 
 
@@ -62,7 +64,7 @@ The first step is to include the AWS Access Key and Secret key into the dwh.cfg 
 Important: Set these keys with creedentials that have read write access to S3!!
 
 The second step is to create the EMR cluster on AWS:
-> * python create_emr.py
+> * python launch_emr.py
 
 The third step is launching the ETL processs 
 To do so, run the following command in a terminal at the root folder:
@@ -71,13 +73,13 @@ To do so, run the following command in a terminal at the root folder:
 
 Don't forget to delete all the AWS services if you don't want to have an extra cost!!!!
 
->* python delete_emr.py
+>* python destroy_cluster.py
 
 Here some screenshots of the scripts running:
-![Alt text](./img/create.png?raw=true "script1")
+![Alt text](./img/create.png?raw=true "Captura de pantalla 2023-04-22 154138.png")
 
-Here a screenshoft of the Redshift Editor
-![Alt text](./img/redshift.png?raw=true "redshift")
+Here a screenshoft of the output files generated
+![Alt text](./img/Captura de pantalla 2023-04-22 154319.png?raw=true "OutputFiles")
 
 <br>
 
@@ -90,7 +92,6 @@ The files included for the analysis are two datasets:
 
 You have to download and unzip the files to test on local
 
-
 ## Database Model <a name="database"></a>
 
 The schema of the Database is a star schema and can be described with the following diagram:
@@ -100,29 +101,29 @@ The schema of the Database is a star schema and can be described with the follow
 
 These are the python scripts that create the databases schema and all the queries:
 
-1. create_tables.py: Prepare all the workspace with a new schema and create all tables <br>
-2. etl.py: Read the Json logs and metadata and load that info into the recently created tables
-3. sql_queries.py: This script contains all the queries
+1. launch_emr.py: Create an EMR cluster on AWS cloud <br>
+2. etl.py: Read the Json files and load that info into the created tables
+3. destroy_cluster.py: This script destroys the EMR cluster
 
 ## Dashboarding<a name="dash"></a> 
 
 During the project, I have also added an EDA (Exploratory Data Analysis) and I include here some of the graphics for a better understanding of this dataset
 <br>
 
- <br>Number of users
-![Alt text](./img/nusers.png?raw=true "Number of Users")
+ <br>Users by level
+![Alt text](./img/Captura de pantalla 2023-04-22 154935.png?raw=true "UsersbyLevel")
 
-<br>Graphic of Users by Level
-![Alt text](./img/usersbylevel.png?raw=true "Users by Level")
+<br>Level of users' accounts
+![Alt text](./img/Captura de pantalla 2023-04-22 155002.png?raw=true "Level account of Users")
 
- <br>Graphic of Gender Distribution
-![Alt text](./img/usersbygender.png?raw=true "Gender Distribution")
+<br>Graphic of Location of Users
+![Alt text](./img/Captura de pantalla 2023-04-22 155027.png?raw=true "Users by Location")
 
- <br>Graphic of Users by American State
-![Alt text](./img/usersbylocation.png?raw=true "Users by State")
+ <br>Histogram of the length users stay
+![Alt text](./img/Captura de pantalla 2023-04-22 155041.png?raw=true "Histogram")
 
- <br>Graphic of 5 Top Artist
-![Alt text](./img/top_artists.png?raw=true "5 Top Artist")
+ <br>Skewness of data
+![Alt text](./img/Captura de pantalla 2023-04-22 154645.png?raw=true "Skewness")
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
