@@ -21,63 +21,41 @@ There is a startup named Sparkify has grown so much, that they have decided to m
 The data resides in an S3 bucket, in a directory containing JSON logs about the activity of their users using the app.
 There is also a folder with metadata of the songs, also in JSON format.
 
-This startup has asked me, as her data engineer, to build an ELT pipeline that extracts all the data from the S3 buckets, procesess them using Spark, and transform that data into dimensional tables, so that the analytics team can find insights into the songs that our users are listening to.
+This startup has asked me, as her data engineer, to build an ELT pipeline with Apache Airflow, that extracts all the data from the S3 buckets, and load them into several facts and dimensional tables in a Redshift Datawarehouse, so that the analytics team can find insights into the songs that our users are listening to.
 
-I will test the database and the ETL pipeline and execute some queries to compare the results with the expected results.
+I will test the database and the ETL pipeline and execute some queries to compare the results with the expected results as a data quality check.
 
-So in this project, I'll apply what I have learned on Spark and data lakes to build an ETL pipeline for a data lake hosted on S3. Also I'll need to load data from S3, process the data into analytics tables using Spark, and load them back into S3. Also I will deploy this Spark process on a cluster using AWS.
-
-> * Question 1: What are the songs that users are listening to?
-> * Question 2: What are the artists that users are listening to?
-> * Question 3: How many users do we have?
-> * Question 4: How many users do we have by levels (free/paid)?
-> * Question 5: How many users do we have by gender?
-> * Question 6: What are the 5 location where users listen the most?
+So in this project, I'll apply what I have learned on Apache Airflow and data warehouses to build an ETL pipeline for a data lake hosted on S3. Also I'll need to load data from S3 and process the data into a Redshift with Apache Airflow.
 
 They don't have an easy way to query their data that is stored in a directory of JSON files with the logs on user activity on the app. They have also a directory with JSON metadata on the songs in their app.
 
 The goals of this project are:
-> * Create a Data Lake with tables specifically designed to optimize queries on song play analysis. 
-> * Build an ETL pipeline to load data hosted on S3, process the data into analytics tables using Spark and load them back into S3
-> * Deploy a Spark process on a cluster using AWS
+> * Create an AWS Redshift datawarehouse
+> * Build an ETL pipeline to load data hosted on S3, process the data into facts and dimensional tables on a Redshift datawarehouse using Apache Airflow
+> * Run several data quality checks
+
+## DAG </a>
+The Airflow DAG will be configurated according to the following guidelines:
+
+The DAG does not have dependencies on past runs
+On failure, the task are retried 3 times
+Retries happen every 5 minutes
+Catchup is turned off
+Do not email on retry
+
+## Tasks <a name="Tasks"></a>
 
 
-## Project Structure<a name="structure"></a>
-
-This is the structure of the project:
-> * dl.cfg: Configuration file with AWS credentials
-> * etl.py: Python file with the processes that support the ETL pipeline, that is, reads data from S3 buckets, processess data using Apache Spark, and writes processed data to the output S3 buckets
-> * etl.ipynb: Test file for the ETL process
-> * launch_emr.py: Script to create an EMR cluster
-> * destroy_cluster.py: Script to delete the EMR cluster previously created
+> * There are 2 staging tasks to extract information from the log events and songs tables from S3 JSON files
+> * After that, we will load the songplays fact table
+> * Then load into four dimensional tables: users, songs, artists, time
+> * Finally we run several data quality checks to test that everything went correct
 
 
 
 ## Usage <a name="usage"></a>
 
-The first step is to include the AWS Access Key and Secret key into the dwh.cfg configuration file
-Important: Set these keys with creedentials that have read write access to S3!!
-
-The second step is to create the EMR cluster on AWS:
-> * python launch_emr.py
-
-The third step is launching the ETL processs 
-To do so, run the following command in a terminal at the root folder:
-
-> * python etl.py
-
-Don't forget to delete all the AWS services if you don't want to have an extra cost!!!!
-
->* python destroy_cluster.py
-
-Here some screenshots of the scripts running:
-![Alt text](./img/exec0.png?raw=true "exec0.png")
-
-Here some screenshots of the output files generated
-![Alt text](./img/partition.png?raw=true "PartitionedFiles")
-![Alt text](./img/tree.png?raw=true "OutputFiles")
-
-<br>
+$ git clone https://github.com/inmaugarc/DataEngineer/main/p5.git
 
 ## Source Datasets <a name="source_datasets"></a>
 
