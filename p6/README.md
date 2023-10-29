@@ -117,9 +117,9 @@ The schema of the Database is a star schema and can be described with the follow
     -  parameter: EV Sales/EV stock/EV stock share/EV sales share/EV charging points/Oil displacement Mbd/Oil displacement Mlge/Electricity demand
     -  mode: 
     -  powertrain: For vehicles: BEV/EV/PHEV, And for the charging points: Publicly available fast/Publicly available slow
-    -  year     
-    -  unit       
-    -  value  
+    -  year: Year of the selling 
+    -  unit: sales/stock/percent/charging points/Milion barrels per day/Milion litres gasoline equivalent/GWh
+    -  value:  Sold Units
 
 ## Dashboarding<a name="dash"></a> 
 
