@@ -8,7 +8,7 @@ A Udacity Data Engineer Nanodegree Project
 2. [Project Structure](#structure)
 3. [Source Datasets](#source_datasets)
 4. [Schema Design](#schema)
-5. [File Descriptions](#files)
+5. [Data dictionary](#dictionary)
 6. [Dashboards](#dash)
 7. [Licensing, Authors, and Acknowledgements](#licensing)
 8. [References](#references)
@@ -66,13 +66,26 @@ The schema of the Database is a star schema and can be described with the follow
 > * During the process we run several data quality checks to test that everything went correct
 > * In tables with a year column, this column is used as the sort key to improve the performance of the year-based searches
 
-## File Descriptions <a name="files"></a>
-
-These are the python scripts that create the databases schema and all the queries:
-
-1. launch_emr.py: Create an EMR cluster on AWS cloud <br>
-2. etl.py: Read the Json files and load that info into the created tables
-3. destroy_cluster.py: This script destroys the EMR cluster
+## Data dictionary <a name="dictionary"></a>
+>* World Population Dataset
+We have a dataset with 234 rows and 17 columns (variables) and no nulls 
+>*  Rank: Rank by population
+>*  CCA3: 3 digit Country/Territories code
+>*  Country: Name of the Country/Territories
+>*  Capital: Name of the Capital
+>*  Continent: Name of the Continent
+>*  2022 Population: Population of the Country/Territories in the year 2022
+>*  2020 Population: Population of the Country/Territories in the year 2020
+>*  2015 Population: Population of the Country/Territories in the year 2015
+>*  2010 Population: Population of the Country/Territories in the year 2010
+>*  2000 Population: Population of the Country/Territories in the year 2000
+>*  1990 Population: Population of the Country/Territories in the year 1990
+>*  1980 Population: Population of the Country/Territories in the year 1980
+>*  1970 Population: Population of the Country/Territories in the year 1970
+>*  Area (km²): Area size of the Country/Territories in square kilometer
+>*  Density (per km²): Population density per square kilometer
+>*  Growth Rate: Population growth rate by Country/Territories
+>*  World Population Percentage: The population percentage by each Country/Territories
 
 ## Dashboarding<a name="dash"></a> 
 
