@@ -67,7 +67,17 @@ The schema of the Database is a star schema and can be described with the follow
 > * In tables with a year column, this column is used as the sort key to improve the performance of the year-based searches
 
 ## Data dictionary <a name="dictionary"></a>
-> * World Population Dataset
+
+ - [x] Global Land Temperatures by city
+   This dataset contains 7 columns
+    -  dt: datetime it shows the date of the observation
+    -  AverageTemperature: The average temperature of the observation
+    -  AverageTemperatureUncertainty
+    -  City: The city where the temperature observation was taken
+    -  Country: The Country where the temperature observation was taken
+    -  Latitude: The Latitude where the temperature observation was taken
+    -  Longitude: The Longitude where the temperature observation was taken
+- [x] World Population Dataset
   We have a dataset with 234 rows and 17 columns (variables) and no nulls
  -  Rank: Rank by population
  -  CCA3: 3 digit Country/Territories code
@@ -86,6 +96,8 @@ The schema of the Database is a star schema and can be described with the follow
  -  Density (per km²): Population density per square kilometer
  -  Growth Rate: Population growth rate by Country/Territories
  -  World Population Percentage: The population percentage by each Country/Territories
+
+
 
 ## Dashboarding<a name="dash"></a> 
 
