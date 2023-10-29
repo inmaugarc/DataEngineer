@@ -110,7 +110,16 @@ The schema of the Database is a star schema and can be described with the follow
     -  measurements_unit: Unit for that measurement        
     -  measurements_value: Value for that measurement
 
-
+  - [x] Electric Vehicle Sellings
+ This dataset contains 8 columns that shows the number of sellings of electric vehicles
+    -  region: Region of the world
+    -  category: Category of the information ('Historical', 'Projection-STEPS', 'Projection-APS)
+    -  parameter: EV Sales/EV stock/EV stock share/EV sales share/EV charging points/Oil displacement Mbd/Oil displacement Mlge/Electricity demand
+    -  mode: 
+    -  powertrain: For vehicles: BEV/EV/PHEV, And for the charging points: Publicly available fast/Publicly available slow
+    -  year     
+    -  unit       
+    -  value  
 
 ## Dashboarding<a name="dash"></a> 
 
