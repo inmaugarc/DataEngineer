@@ -7,7 +7,7 @@ A Udacity Data Engineer Nanodegree Project
 1. [Project Motivation](#motivation)
 2. [Project Structure](#structure)
 3. [Source Datasets](#source_datasets)
-4. [Database Model](#database)
+4. [Schema Design](#schema)
 5. [File Descriptions](#files)
 6. [Dashboards](#dash)
 7. [Licensing, Authors, and Acknowledgements](#licensing)
@@ -53,7 +53,7 @@ The project follows the follow steps:
     Source: https://www.worlddata.info/
     File format: CSV
 
-## Database Model <a name="database"></a>
+## Schema Design <a name="schema"></a>
 
 The schema of the Database is a star schema and can be described with the following diagram:
 ![Alt text](./img/DataLake_Star_schema.png?raw=true "Database_model")
