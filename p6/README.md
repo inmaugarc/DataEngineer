@@ -67,9 +67,9 @@ The schema of the Database is a star schema and can be described with the follow
 > * In tables with a year column, this column is used as the sort key to improve the performance of the year-based searches
 
 ## Data dictionary <a name="dictionary"></a>
->* World Population Dataset
-We have a dataset with 234 rows and 17 columns (variables) and no nulls 
- - Rank: Rank by population
+* World Population Dataset
+  We have a dataset with 234 rows and 17 columns (variables) and no nulls 
+ -  Rank: Rank by population
  -  CCA3: 3 digit Country/Territories code
  -  Country: Name of the Country/Territories
  -  Capital: Name of the Capital
