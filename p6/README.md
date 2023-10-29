@@ -97,6 +97,19 @@ The schema of the Database is a star schema and can be described with the follow
     -  Growth Rate: Population growth rate by Country/Territories
     -  World Population Percentage: The population percentage by each Country/Territories
 
+  - [x] Dataset Air Quality by city
+    This dataset contains 10 columns that describe the air quality of different cities in the world
+    -  city: City where the air quality has been measured
+    -  coordinates: Exact location
+    -  country: Country                     
+    -  country_name_en: Abbreviations in english for the country name             
+    -  location: Location of the city                    
+    -  measurements_lastupdated: When the measurements have been made
+    -  measurements_parameter: Air Quality parameter that have been measured 
+    -  measurements_sourcename: Entity that takes the measurements     
+    -  measurements_unit: Unit for that measurement        
+    -  measurements_value: Value for that measurement
+
 
 
 ## Dashboarding<a name="dash"></a> 
