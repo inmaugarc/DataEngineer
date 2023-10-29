@@ -56,7 +56,7 @@ The project follows the follow steps:
 ## Schema Design <a name="schema"></a>
 
 The schema of the Database is a star schema and can be described with the following diagram:
-![Alt text](./img/DataLake_Star_schema.png?raw=true "Database_model")
+![Alt text](./img/capstone_db.png?raw=true "Database_model")
 
 
 > * There are 2 staging tasks to extract information from the log events and songs tables from S3 JSON files
