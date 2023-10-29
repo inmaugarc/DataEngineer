@@ -11,9 +11,10 @@ A Udacity Data Engineer Nanodegree Project
 5. [Data dictionary](#dictionary)
 6. [Technologies](#tech)
 7. [Data Pipeline](#pipeline)
-8. [Scenarios](#scenarios)
-9. [Licensing, Authors, and Acknowledgements](#licensing)
-10. [References](#references)
+8. [DAGs](#dags)
+9. [Scenarios](#scenarios)
+10. [Licensing, Authors, and Acknowledgements](#licensing)
+11. [References](#references)
 
 
 ## Project Motivation<a name="motivation"></a> 
@@ -129,7 +130,11 @@ Redshift was chosen as a datawarehouse tool
 
 ## Data Pipeline<a name="pipeline"></a> 
 
-I include some Airflow screenshots that shows the steps:
+I include the general ETL that describe the process 
+
+## DAGs<a name="dags"></a> 
+
+I show some Airflow screenshots that shows the steps:
 
 ## Scenarios <a name="scenarios"></a> 
 
