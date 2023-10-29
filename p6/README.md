@@ -64,6 +64,7 @@ The schema of the Database is a star schema and can be described with the follow
 > * There are 4 staging tasks to extract information from the original source files
 > * After that, we will load into 4 fact tables and 3 dimensional tables
 > * During the process we run several data quality checks to test that everything went correct
+> * In tables with a year column, this column is used as the sort key to improve the performance of the year-based searches
 
 ## File Descriptions <a name="files"></a>
 
