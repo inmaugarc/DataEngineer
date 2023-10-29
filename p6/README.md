@@ -12,9 +12,10 @@ A Udacity Data Engineer Nanodegree Project
 6. [Technologies](#tech)
 7. [Data Pipeline](#pipeline)
 8. [DAGs](#dags)
-9. [Scenarios](#scenarios)
-10. [Licensing, Authors, and Acknowledgements](#licensing)
-11. [References](#references)
+9. [Data Quality Checks](#quality)
+10. [Scenarios](#scenarios)
+11. [Licensing, Authors, and Acknowledgements](#licensing)
+12. [References](#references)
 
 
 ## Project Motivation<a name="motivation"></a> 
@@ -135,6 +136,8 @@ I include the general ETL that describe the process
 ## DAGs<a name="dags"></a> 
 
 I show some Airflow screenshots that shows the steps:
+
+## Data Quality Checks<a name="quality"></a> 
 
 ## Scenarios <a name="scenarios"></a> 
 
