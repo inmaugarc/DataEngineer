@@ -59,10 +59,11 @@ The schema of the Database is a star schema and can be described with the follow
 ![Alt text](./img/capstone_db.png?raw=true "Database_model")
 
 
-> * There are 2 staging tasks to extract information from the log events and songs tables from S3 JSON files
-> * After that, we will load the songplays fact table
-> * Then load into four dimensional tables: users, songs, artists, time
-> * Finally we run several data quality checks to test that everything went correct
+> * The tables on the left (with the title in grey) contain data load from the source datasets.
+> * The tables on the right are the Fact and Dimensional tables. Fact tables are coloured with green, dimensional tables are coloured with blue.
+> * There are 4 staging tasks to extract information from the original source files
+> * After that, we will load into 4 fact tables and 3 dimensional tables
+> * During the process we run several data quality checks to test that everything went correct
 
 ## File Descriptions <a name="files"></a>
 
