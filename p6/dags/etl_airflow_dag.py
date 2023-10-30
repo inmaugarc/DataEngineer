@@ -11,11 +11,11 @@ from airflow.operators.postgres_operator import PostgresOperator
 from airflow.operators.python_operator import PythonOperator
 from airflow.operators.dummy_operator import DummyOperator
 #from airflow.operators import StageToRedshiftOperator --> it throws an error
-from operators.stage_redshift import StageToRedshiftOperator
+from operators.s3_to_redshift import StageToRedshiftOperator
 #from airflow.operators import LoadFactOperator --> it throws an error
-from operators.load_fact import LoadFactOperator
+from operators.LoadFactOperator import LoadFactOperator
 #from airflow.operators import LoadDimensionOperator --> it throws an error
-from operators.load_dimension import LoadDimensionOperator
+from operators.LoadDimensionOperator import LoadDimensionOperator
 #from airflow.operators import DataQualityOperator --> it throws an error
 from operators.data_quality import DataQualityOperator
 
