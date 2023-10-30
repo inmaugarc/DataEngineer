@@ -9,9 +9,7 @@ class LoadFactOperator(BaseOperator):
     """
         Description: Custom operator that derives from BaseOperator.
                      This Operator is specific customized Operator
-                     to fill a given fact table with a passed
-                     SQL statement.
-
+                     to fill a fact table from a SQL statement.
         Arguments:
             BaseOperator: Base class for all operators
 
