@@ -1,4 +1,4 @@
-CREATE TABLE Staging_Temperature(
+CREATE TABLE IF NOT EXISTS public.Staging_Temperature(
     dt                            TIMESTAMP,
     AverageTemperature            DECIMAL(16,4),
     AverageTemperatureUncertainty DECIMAL(16,2),
@@ -8,7 +8,7 @@ CREATE TABLE Staging_Temperature(
     Longitude                     VARCHAR(256)
 );
 
-CREATE TABLE Staging_AirQuality(
+CREATE TABLE IF NOT EXISTS public.Staging_AirQuality(
     city                        VARCHAR(256),
     coordinates                 VARCHAR(256),
     country                     VARCHAR(256),
@@ -21,7 +21,7 @@ CREATE TABLE Staging_AirQuality(
     measurements_value          DECIMAL(16,4)
 );
 
-CREATE TABLE Staging_Electric_Vehicles_Sellings(
+CREATE TABLE IF NOT EXISTS public.Staging_Electric_Vehicles_Sellings(
     region      VARCHAR(256),
     category    VARCHAR(256),
     parameter   VARCHAR(256),
@@ -32,7 +32,7 @@ CREATE TABLE Staging_Electric_Vehicles_Sellings(
     value       DECIMAL(16,4)
 );
 
-CREATE TABLE Staging_WorldPopulation(
+CREATE TABLE IF NOT EXISTS public.Staging_WorldPopulation(
     Rank                        INT,
     CCA3                        INT,
     Country                     VARCHAR(256),
@@ -52,7 +52,7 @@ CREATE TABLE Staging_WorldPopulation(
     World_Population_Percentage DECIMAL(16,4)    
 );
 
-CREATE TABLE dim_country(
+CREATE TABLE IF NOT EXISTS public.dim_country(
     country_id      SERIAL PRIMARY KEY,
     country         VARCHAR(256),
     country_name_en VARCHAR(256),
@@ -62,7 +62,7 @@ CREATE TABLE dim_country(
     area            INT    
 );
 
-CREATE TABLE dim_datetime (
+CREATE TABLE IF NOT EXISTS public.dim_datetime (
     dt TIMESTAMP NOT NULL PRIMARY KEY,    
     hour    INT NOT NULL,
     day     INT NOT NULL,
@@ -72,12 +72,12 @@ CREATE TABLE dim_datetime (
     weekday INT NOT NULL
 );    
 
-CREATE TABLE dim_vehicle (
+CREATE TABLE IF NOT EXISTS public.dim_vehicle (
     mode        VARCHAR(256) NOT NULL PRIMARY_KEY,
     powertrain  VARCHAR(256)
 );
 
-CREATE TABLE fact_temperature(
+CREATE TABLE IF NOT EXISTS public.fact_temperature(
     country_id INT NOT NULL PRIMARY KEY, 
     dt TIMESTAMP NOT NULL PRIMARY KEY,
     city VARCHAR(256) NOT NULL PRIMARY KEY, 
@@ -94,7 +94,7 @@ CREATE TABLE fact_temperature(
       REFERENCES Dim_Datetime(dt)  
 );    
 
-CREATE TABLE fact_population(
+CREATE TABLE IF NOT EXISTS public.fact_population(
     country_id INT NOT NULL PRIMARY_KEY,
     city VARCHAR(216),
     rank INT,
@@ -113,7 +113,7 @@ CREATE TABLE fact_population(
       REFERENCES dim_country(country_id)
 );  
 
-CREATE TABLE fact_airquality(
+CREATE TABLE IF NOT EXISTS public.fact_airquality(
     country_id INT NOT NULL PRIMARY_KEY,
     city VARCHAR(216),
     dt TIMESTAMP NOT NULL PRIMARY_KEY,
@@ -132,7 +132,7 @@ CREATE TABLE fact_airquality(
       REFERENCES Dim_Datetime(dt)      
 );
 
-CREATE TABLE fact_car_sales(
+CREATE TABLE IF NOT EXISTS public.fact_car_sales(
     country_id INT NOT NULL PRIMARY_KEY,
     mode VARCHAR(216) NOT NULL PRIMARY_KEY,
     year INT,
