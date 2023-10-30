@@ -9,8 +9,7 @@ class LoadDimensionOperator(BaseOperator):
     """
         Description: Custom operator that derives from BaseOperator.
                      This Operator is specific customized Operator
-                     to fill a given dimension table with a passed
-                     SQL statement.
+                     to fill a dimension table from a SQL statement.
 
         Arguments:
             BaseOperator: Base class for all operators
