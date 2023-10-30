@@ -1,7 +1,7 @@
 CREATE TABLE IF NOT EXISTS public.Staging_Temperature(
     dt                            TIMESTAMP,
-    AverageTemperature            DECIMAL(16,4),
-    AverageTemperatureUncertainty DECIMAL(16,2),
+    AverageTemperature            FLOAT,
+    AverageTemperatureUncertainty FLOAT,
     City                          VARCHAR(256),
     Country                       VARCHAR(256),
     Latitude                      VARCHAR(256),
@@ -60,29 +60,29 @@ CREATE TABLE IF NOT EXISTS public.dim_country(
     capital         VARCHAR(256),
     continent       VARCHAR(256),
     area            INT    
-);
+)diststyle key distkey(country_id);
 
 CREATE TABLE IF NOT EXISTS public.dim_datetime (
-    dt TIMESTAMP NOT NULL PRIMARY KEY,    
+    dt TIMESTAMP NOT NULL SORTKEY,    
     hour    INT NOT NULL,
     day     INT NOT NULL,
     week    INT NOT NULL,
     month   INT NOT NULL,
     year    INT NOT NULL,
     weekday INT NOT NULL
-);    
+)primary key(dt);    
 
 CREATE TABLE IF NOT EXISTS public.dim_vehicle (
     mode        VARCHAR(256) NOT NULL PRIMARY_KEY,
     powertrain  VARCHAR(256)
-);
+) diststyle key distkey(mode);
 
 CREATE TABLE IF NOT EXISTS public.fact_temperature(
     country_id INT NOT NULL PRIMARY KEY, 
     dt TIMESTAMP NOT NULL PRIMARY KEY,
     city VARCHAR(256) NOT NULL PRIMARY KEY, 
-    averageTemperature DECIMAL(16,4),
-    averageTemperatureUncertainty DECIMAL(16,4),
+    averageTemperature FLOAT,
+    averageTemperatureUncertainty FLOAT,
     latitude VARCHAR(256),
     longitude VARCHAR(256),
     year INT,
@@ -92,7 +92,8 @@ CREATE TABLE IF NOT EXISTS public.fact_temperature(
     CONSTRAINT fk_dt
       FOREIGN KEY(dt) 
       REFERENCES Dim_Datetime(dt)  
-);    
+)
+diststyle all;    
 
 CREATE TABLE IF NOT EXISTS public.fact_population(
     country_id INT NOT NULL PRIMARY_KEY,
@@ -111,7 +112,7 @@ CREATE TABLE IF NOT EXISTS public.fact_population(
     CONSTRAINT fk_country
       FOREIGN KEY(country_id) 
       REFERENCES dim_country(country_id)
-);  
+)diststyle all;  
 
 CREATE TABLE IF NOT EXISTS public.fact_airquality(
     country_id INT NOT NULL PRIMARY_KEY,
@@ -130,7 +131,7 @@ CREATE TABLE IF NOT EXISTS public.fact_airquality(
     CONSTRAINT fk_dt
       FOREIGN KEY(dt) 
       REFERENCES Dim_Datetime(dt)      
-);
+)diststyle all;
 
 CREATE TABLE IF NOT EXISTS public.fact_car_sales(
     country_id INT NOT NULL PRIMARY_KEY,
@@ -150,4 +151,4 @@ CREATE TABLE IF NOT EXISTS public.fact_car_sales(
     CONSTRAINT fk_powertrain
       FOREIGN KEY(powertrain) 
       REFERENCES Dim_Vehicle(powertrain)
-);
+)diststyle all;
