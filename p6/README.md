@@ -133,7 +133,12 @@ This project makes use of several Big Data techniques and tools such as:
 
 ## Data Pipeline<a name="pipeline"></a> 
 
-I include the general ETL that describe the process 
+The steps to process the data are the following:
+1. Load data into staging tables
+2. Create dimension tables
+3. Create facts table
+4. Export data into parquet files
+5. Perform several data quality checks (number of rows, query the tables, etc..)
 
 ## Data Quality Checks<a name="quality"></a> 
 There are some Data Quality Checks included in this code: for checking the number of rows when we read the spark files written with the ETL and several queries to check that everything is ok
