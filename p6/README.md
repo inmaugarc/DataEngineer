@@ -126,16 +126,23 @@ The schema of the Database is a star schema and can be described with the follow
     -  value:  Sold Units
 
 ## Technologies<a name="tech"></a> 
-Airflow has been used as orchestrator for the ETL processes
-Redshift was chosen as a datawarehouse tool
+This project makes use of several Big Data techniques and tools such as:
+* Pandas was used to explore the datasets since it has an easy and fast API
+* Matplotlib as an easy way to visualize graphically and deduce insights from data
+* Apache Spark as the most popular framework for distributed data processing for manipulating data at scale, in-memory data caching, and reuse across computations with high speed, ease of use and rich API
 
 ## Data Pipeline<a name="pipeline"></a> 
 
 I include the general ETL that describe the process 
 
 ## Data Quality Checks<a name="quality"></a> 
+There are some Data Quality Checks included in this code: for checking the number of rows when we read the spark files written with the ETL and several queries to check that everything is ok
+
 
 ## Scenarios <a name="scenarios"></a> 
+If the data was increased by 100x: We would use different approach for data storage such as Amazon EMR, Apache Cassandra, Amazon Athena or AWS Redshift and adapting the resources or even using a serverless Redshift so that we could forget about managing those resources
+The data populates a dashboard that must be updated on a daily basis by 7am every day: In this case we could use Apache Airflow to manage the ETL, set specific tasks to be executed periodically including quality checks either on the data as well as on the overall process and setting alerts and notifications. Also we could use AWS Glue with crawlers to manage the ETL and perform periodical tasks.
+The database needed to be accessed by 100+ people: For this purpose I would use AWS Redshift and adjust resources depending on the type of accesses (if people has to access simultaneously or not)
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
