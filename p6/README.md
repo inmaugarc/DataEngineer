@@ -152,6 +152,8 @@ The database needed to be accessed by 100+ people: For this purpose I would use 
 ## Graphics <a name="graphics"></a> 
 Here some graphics to a better visualization of data 
 ![Alt text](./img/Locations_BCN.png?raw=true "Locations of measurements in Barcelona")
+![Alt text](./img/ev_sales.png?raw=true "Sales of Electric Vehicles along time")
+
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
