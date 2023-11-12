@@ -14,8 +14,9 @@ A Udacity Data Engineer Nanodegree Project
 8. [DAGs](#dags)
 9. [Data Quality Checks](#quality)
 10. [Scenarios](#scenarios)
-11. [Licensing, Authors, and Acknowledgements](#licensing)
-12. [References](#references)
+11. [Graphics](#graphics)     
+12. [Licensing, Authors, and Acknowledgements](#licensing)
+13. [References](#references)
 
 
 ## Project Motivation<a name="motivation"></a> 
