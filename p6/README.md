@@ -133,10 +133,6 @@ Redshift was chosen as a datawarehouse tool
 
 I include the general ETL that describe the process 
 
-## DAGs<a name="dags"></a> 
-
-I show some Airflow screenshots that shows the steps:
-
 ## Data Quality Checks<a name="quality"></a> 
 
 ## Scenarios <a name="scenarios"></a> 
