@@ -143,11 +143,14 @@ The steps to process the data are the following:
 ## Data Quality Checks<a name="quality"></a> 
 There are some Data Quality Checks included in this code: for checking the number of rows when we read the spark files written with the ETL and several queries to check that everything is ok
 
-
 ## Scenarios <a name="scenarios"></a> 
 If the data was increased by 100x: We would use different approach for data storage such as Amazon EMR, Apache Cassandra, Amazon Athena or AWS Redshift and adapting the resources or even using a serverless Redshift so that we could forget about managing those resources
 The data populates a dashboard that must be updated on a daily basis by 7am every day: In this case we could use Apache Airflow to manage the ETL, set specific tasks to be executed periodically including quality checks either on the data as well as on the overall process and setting alerts and notifications. Also we could use AWS Glue with crawlers to manage the ETL and perform periodical tasks.
 The database needed to be accessed by 100+ people: For this purpose I would use AWS Redshift and adjust resources depending on the type of accesses (if people has to access simultaneously or not)
+
+## Graphics <a name="graphics"></a> 
+Here some graphics to a better visualization of data 
+![Alt text](./img/Locations_BCN.png?raw=true "Locations of measurements in Barcelona")
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
