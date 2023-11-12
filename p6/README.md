@@ -154,6 +154,8 @@ Here some graphics to a better visualization of data
 ![Alt text](./img/Locations_BCN.png?raw=true "Locations of measurements in Barcelona")
 ![Alt text](./img/ev_sales_world.png?raw=true "Sales of Electric Vehicles in the world along time")
 ![Alt text](./img/ev_sales.png?raw=true "Sales of Electric Vehicles in Spain along time")
+![Alt text](./img/ev_sales.png?raw=true "Top 10 Most Populated Countries")
+![Alt text](./img/ev_sales.png?raw=true "Top 10 Least Populated Countries")
 
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
